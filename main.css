@@ -11,8 +11,10 @@ section {
 /* Image number 1 */
 .container {
     position: relative;
-    width: 33.33%;
+    width: 32%;
     float: left;
+    padding: 5px;
+
 }
 
 .image {
@@ -56,8 +58,9 @@ section {
 /* image number 2 */
 .apply {
     position: relative;
-    width: 33.33%;
+    width: 32%;
     float: left;
+    padding: 5px;
 }
 
 .aimage {
@@ -98,8 +101,9 @@ section {
 /* Image number 3 */
 .reg {
     position: relative;
-    width: 33.33%;
+    width: 32%;
     float: left;
+    padding: 5px;
 }
 
 .rimage {
