@@ -11,9 +11,10 @@ section {
 /* Image number 1 */
 .container {
     position: relative;
-    width: 32%;
+    width: 30%;
     float: left;
-    padding: 5px;
+    padding: 12px;
+    margin: 10px;
 
 }
 
@@ -28,7 +29,7 @@ section {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background: linear-gradient(#FFB75E, #ED8F03);
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -58,9 +59,10 @@ section {
 /* image number 2 */
 .apply {
     position: relative;
-    width: 32%;
+    width: 30%;
     float: left;
-    padding: 5px;
+    padding: 12px;
+    margin: 10px;
 }
 
 .aimage {
@@ -74,7 +76,7 @@ section {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background: linear-gradient(#FFB75E, #ED8F03);
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -101,9 +103,10 @@ section {
 /* Image number 3 */
 .reg {
     position: relative;
-    width: 32%;
+    width: 30%;
     float: left;
-    padding: 5px;
+    padding: 12px;
+    margin: 10px;
 }
 
 .rimage {
@@ -117,7 +120,7 @@ section {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background: linear-gradient(#FFB75E, #ED8F03);
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -141,4 +144,8 @@ section {
     text-align: center;
 }
 
-/* place images side by side */
+/* title for images */
+h1#steps {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
