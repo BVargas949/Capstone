@@ -1,4 +1,94 @@
 @charset "utf-8";
+/* imported fonts */
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+/* Horizontal Nav */
+
+body {
+    margin: 0;
+    font-family: 'Arvo', serif;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 2px 0px 0px;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover:not(.active) {
+    padding: 14px 16px;
+    background-color: rgb(255, 141, 35);
+    color: white;
+}
+
+
+/* General styles for each section */
+article {
+    overflow: scroll;
+}
+
+section h1 {
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    box-shadow: 0px 0px 0px 0px;
+    transition: 0.4s;
+}
+
+section h1:hover:not(.active) {
+    box-shadow: 0px 2px 0px 0px;
+}
+
+section h3 {
+    display: block;
+    width: 20%;
+    margin: 20px;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+/* overView section styles */
+section#overView {
+    font-size: 25px;
+    padding: 20px 100px;
+    line-height: 30px;
+
+}
+
+/* about section styles */
+
+/* Image number 1 */
 
 img {
     background: no-repeat;
@@ -6,7 +96,6 @@ img {
     height: auto;
 }
 
-/* Image number 1 */
 .container {
     position: relative;
     width: 28%;
