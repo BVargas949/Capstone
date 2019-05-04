@@ -47,9 +47,7 @@ nav ul li a:hover:not(.active) {
 
 
 /* General styles for each section */
-article {
-    overflow: scroll;
-}
+
 
 section h1 {
     display: block;
