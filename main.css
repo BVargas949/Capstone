@@ -2,7 +2,6 @@
 /* imported fonts */
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
-/* Horizontal Nav */
 
 body {
     margin: 0;
@@ -13,7 +12,9 @@ article {
     margin: 0;
     padding: 0;
 }
+/* Horizontal Nav */
 
+/* Horizontal Nav with imported fonts. All links placed on the left. Position is fixed to stay with the user As they scroll through the document. Transitions are used to have changes fade in when the user hovers over the links.  */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -22,11 +23,12 @@ nav ul {
     position: fixed;
     width: 100%;
     box-shadow: 0px 2px 0px 0px;
+ 
 }
 
 nav ul li {
     float: left;
-
+   
 }
 
 nav ul li a {
@@ -36,14 +38,18 @@ nav ul li a {
     padding: 14px 16px;
     font-size: 20px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.4s;
+   
 }
 
 nav ul li a:hover:not(.active) {
     padding: 14px 16px;
     background-color: rgb(255, 141, 35);
     color: white;
+    
 }
+
+
 
 
 /* General styles for each section */
@@ -95,7 +101,7 @@ img {
     height: auto;
 }
 
-.container {
+section div.container {
     position: relative;
     width: 28%;
     float: left;
@@ -104,13 +110,13 @@ img {
 
 }
 
-.image {
+section div img.image {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.overlay {
+section div div.overlay {
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -122,12 +128,12 @@ img {
     transition: .5s ease;
 }
 
-.container:hover .overlay {
+section div.container:hover .overlay {
     bottom: 0;
     height: 100%;
 }
 
-.text {
+section div div div.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -232,9 +238,7 @@ img {
 
 /* Skills USA Portion */
 
-section.relative {
-    position: relative;
-}
+
 
 section img {
     width: 40%;
@@ -242,7 +246,7 @@ section img {
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
-    position: relative;
+    
 }
 
 section article.skillsUSA {
@@ -254,5 +258,5 @@ section article.skillsUSA {
     font-size: 20px;
     margin: 20px;
     padding: 25px;
-    position: absolute;
-}
+    
+} 
