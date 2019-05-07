@@ -12,6 +12,7 @@ article {
     margin: 0;
     padding: 0;
 }
+
 /* Horizontal Nav */
 
 /* Horizontal Nav with imported fonts. All links placed on the left. Position is fixed to stay with the user As they scroll through the document. Transitions are used to have changes fade in when the user hovers over the links.  */
@@ -23,12 +24,12 @@ nav ul {
     position: fixed;
     width: 100%;
     box-shadow: 0px 2px 0px 0px;
- 
+
 }
 
 nav ul li {
     float: left;
-   
+
 }
 
 nav ul li a {
@@ -39,14 +40,14 @@ nav ul li a {
     font-size: 20px;
     text-decoration: none;
     transition: 0.4s;
-   
+
 }
 
 nav ul li a:hover:not(.active) {
     padding: 14px 16px;
     background-color: rgb(255, 141, 35);
     color: white;
-    
+
 }
 
 
@@ -246,7 +247,7 @@ section img {
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
-    
+
 }
 
 section article.skillsUSA {
@@ -258,5 +259,43 @@ section article.skillsUSA {
     font-size: 20px;
     margin: 20px;
     padding: 25px;
-    
-} 
+
+}
+
+/* slideshow */
+div.slideshow {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
