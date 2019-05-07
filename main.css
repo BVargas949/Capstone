@@ -12,6 +12,7 @@ article {
     margin: 0;
     padding: 0;
 }
+
 /* Horizontal Nav */
 
 /* Horizontal Nav with imported fonts. All links placed on the left. Position is fixed to stay with the user As they scroll through the document. Transitions are used to have changes fade in when the user hovers over the links.  */
@@ -23,12 +24,12 @@ nav ul {
     position: fixed;
     width: 100%;
     box-shadow: 0px 2px 0px 0px;
- 
+
 }
 
 nav ul li {
     float: left;
-   
+
 }
 
 nav ul li a {
@@ -39,14 +40,14 @@ nav ul li a {
     font-size: 20px;
     text-decoration: none;
     transition: 0.4s;
-   
+
 }
 
 nav ul li a:hover:not(.active) {
     padding: 14px 16px;
     background-color: rgb(255, 141, 35);
     color: white;
-    
+
 }
 
 
@@ -74,13 +75,6 @@ section h1:hover:not(.active) {
     box-shadow: 0px 2px 0px 0px;
 }
 
-section h3 {
-    display: block;
-    width: 20%;
-    margin: 20px;
-    margin-left: 10%;
-    font-size: 25px;
-}
 
 /* overView section styles */
 section#overView {
@@ -90,7 +84,27 @@ section#overView {
 
 }
 
-/* about section styles */
+/* About section Styles */
+
+section#about p.path {
+    display: block;
+    border: 1px solid black;
+    float: left;
+    width: 40%;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+section#about h3.firstH {
+    display: block;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-size: 25px;
+}
 
 /* Image number 1 */
 
@@ -240,16 +254,16 @@ section div div div.text {
 
 
 
-section img {
+section#ctso img {
     width: 40%;
     display: inline;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
-    
+
 }
 
-section article.skillsUSA {
+section article#skillsUSA {
     display: inline;
     float: right;
     width: 50%;
@@ -258,5 +272,5 @@ section article.skillsUSA {
     font-size: 20px;
     margin: 20px;
     padding: 25px;
-    
-} 
+
+}
