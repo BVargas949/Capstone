@@ -75,13 +75,6 @@ section h1:hover:not(.active) {
     box-shadow: 0px 2px 0px 0px;
 }
 
-section h3 {
-    display: block;
-    width: 20%;
-    margin: 20px;
-    margin-left: 10%;
-    font-size: 25px;
-}
 
 /* overView section styles */
 section#overView {
@@ -91,7 +84,27 @@ section#overView {
 
 }
 
-/* about section styles */
+/* About section Styles */
+
+section#about p.path {
+    display: block;
+    border: 1px solid black;
+    float: left;
+    width: 40%;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+section#about h3.firstH {
+    display: block;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-size: 25px;
+}
 
 /* Image number 1 */
 
@@ -241,7 +254,7 @@ section div div div.text {
 
 
 
-section img {
+section#ctso img {
     width: 40%;
     display: inline;
     margin-left: auto;
@@ -250,7 +263,7 @@ section img {
 
 }
 
-section article.skillsUSA {
+section article#skillsUSA {
     display: inline;
     float: right;
     width: 50%;
