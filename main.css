@@ -78,17 +78,16 @@ section h1:hover:not(.active) {
 
 /* overView section styles */
 section#overView {
+    display: block;
     font-size: 25px;
     padding: 20px 100px;
     line-height: 30px;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 /* About section Styles */
 
-section#about {
-    border: 5px solid red;
-}
 
 section#about p.path {
     display: block;
@@ -107,6 +106,7 @@ section#about h3.firstH {
     margin-bottom: 20px;
     margin-left: 8%;
     font-size: 25px;
+    color: #ED8F03;
 }
 
 section#about img#fcc {
@@ -117,19 +117,32 @@ section#about img#fcc {
     margin-right: 20%;
 }
 
-section#about h3.secH {
-    display: block;
-    width: 20%;
-    margin: 10px;
-    font-size: 25px;
-    float: right;
-
-}
-
-section#about aside {
+/* Second half of the "about" portion */
+section#about2 {
     display: block;
     width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 23px;
+}
 
+section#about2 h3.secH {
+    display: block;
+    font-size: 25px;
+    margin-left: 60%;
+    color: #ED8F03;
+}
+
+section#about2 p {
+    display: block;
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    width: 40%;
 }
 
 /* Image number 1 */
