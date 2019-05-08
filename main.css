@@ -86,13 +86,16 @@ section#overView {
 
 /* About section Styles */
 
+section#about {
+    border: 5px solid red;
+}
+
 section#about p.path {
     display: block;
     border: 1px solid black;
-    float: left;
     width: 40%;
     padding: 20px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: auto;
     margin-bottom: 10px;
     font-size: 20px;
@@ -102,8 +105,31 @@ section#about h3.firstH {
     display: block;
     width: 20%;
     margin-bottom: 20px;
-    margin-left: 10%;
+    margin-left: 8%;
     font-size: 25px;
+}
+
+section#about img#fcc {
+    width: 15%;
+    height: 15%;
+    padding-top: 2%;
+    float: right;
+    margin-right: 20%;
+}
+
+section#about h3.secH {
+    display: block;
+    width: 20%;
+    margin: 10px;
+    font-size: 25px;
+    float: right;
+
+}
+
+section#about aside {
+    display: block;
+    width: 100%;
+
 }
 
 /* Image number 1 */
