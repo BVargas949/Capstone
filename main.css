@@ -277,13 +277,14 @@ section article#skillsUSA {
 
 /* slideshow */
 div.slideshow {
-    max-width: 800px;
+    padding-top: 50px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .slides {
     display: none;
+
 }
 
 .fade {
