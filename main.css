@@ -88,13 +88,13 @@ section#overView {
 
 /* About section Styles */
 
-
 section#about p.path {
     display: block;
     border: 1px solid black;
+    float: left;
     width: 40%;
     padding: 20px;
-    margin-left: 8%;
+    margin-left: 10%;
     margin-right: auto;
     margin-bottom: 10px;
     font-size: 20px;
@@ -104,7 +104,7 @@ section#about h3.firstH {
     display: block;
     width: 20%;
     margin-bottom: 20px;
-    margin-left: 8%;
+    margin-left: 10%;
     font-size: 25px;
     color: #ED8F03;
 }
