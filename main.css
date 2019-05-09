@@ -216,6 +216,10 @@ form textarea {
 
 /* Image number 1 */
 
+section#steps {
+    display: block;
+}
+
 img {
     background: no-repeat;
     width: 100%;
