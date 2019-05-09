@@ -16,6 +16,10 @@ article {
 /* Horizontal Nav */
 
 /* Horizontal Nav with imported fonts. All links placed on the left. Position is fixed to stay with the user As they scroll through the document. Transitions are used to have changes fade in when the user hovers over the links.  */
+nav {
+    position: absolute;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -86,10 +90,10 @@ section#overView {
 
 section#about p.path {
     display: block;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 40%;
     padding: 20px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: auto;
     margin-bottom: 10px;
     font-size: 20px;
@@ -149,23 +153,68 @@ section#about2 p {
     margin-bottom: 1%;
     padding: 10px;
     font-size: 18px;
-    border: 5px solid rgb(54, 54, 54);
+    border: 2px solid rgb(54, 54, 54);
     width: 40%;
 }
 
 section#about2 img {
-    width: 33%;
-    height: 33%;
+    width: 34%;
+    height: 34%;
     float: left;
     clear: left;
-    margin-left: 10%;
-    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 2%;
     border: 2px solid rgb(255, 134, 35);
+    border-radius: 12px;
+}
+
+/* Contact Form */
+
+form {
+    width: 40%;
+    margin: 2%;
+    background-color: rgb(58, 57, 57);
     border-radius: 20px;
+    color: #FFB75E;
+    height: 100%;
+}
+
+form h3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #ED8F03;
+}
+
+form label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+form input {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+form textarea {
+    display: block;
+    width: 70%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 
 /* Image number 1 */
-
 
 img {
     background: no-repeat;
@@ -217,6 +266,16 @@ section div div div.text {
     text-align: center;
 }
 
+div.text a {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 2px;
+}
+
+div.text a:hover:not(.active) {
+    color: rgb(206, 44, 44);
+}
 
 
 
