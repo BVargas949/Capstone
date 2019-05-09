@@ -67,12 +67,8 @@ section h1 {
     font-size: 35px;
     font-weight: bold;
     font-family: 'Cinzel', serif;
-    box-shadow: 0px 0px 0px 0px;
-    transition: 0.4s;
-}
-
-section h1:hover:not(.active) {
     box-shadow: 0px 2px 0px 0px;
+    transition: 0.4s;
 }
 
 
@@ -101,11 +97,17 @@ section#about p.path {
 
 section#about h3.firstH {
     display: block;
-    width: 20%;
+    width: 12%;
     margin-bottom: 20px;
     margin-left: 10%;
     font-size: 25px;
     color: #ED8F03;
+    box-shadow: 0px 0px 0px 0px;
+    transition: 0.3s;
+}
+
+section#about h3.firstH:hover:not(.active) {
+    box-shadow: 0px 2px 0px 0px #ED8F03;
 }
 
 section#about img#fcc {
@@ -128,8 +130,15 @@ section#about2 {
 section#about2 h3.secH {
     display: block;
     font-size: 25px;
-    margin-left: 60%;
+    margin-left: 62%;
     color: #ED8F03;
+    transition: 0.3s;
+    width: 13%;
+    text-align: center;
+}
+
+section#about2 h3.secH:hover:not(.active) {
+    box-shadow: 0px 2px 0px 0px #ED8F03;
 }
 
 section#about2 p {
@@ -140,8 +149,19 @@ section#about2 p {
     margin-bottom: 1%;
     padding: 10px;
     font-size: 18px;
-    border: 2px solid black;
+    border: 5px solid rgb(54, 54, 54);
     width: 40%;
+}
+
+section#about2 img {
+    width: 33%;
+    height: 33%;
+    float: left;
+    clear: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 2px solid rgb(255, 134, 35);
+    border-radius: 20px;
 }
 
 /* Image number 1 */
@@ -177,7 +197,7 @@ section div div.overlay {
     overflow: hidden;
     width: 100%;
     height: 0;
-    transition: .5s ease;
+    transition: .5s;
 }
 
 section div.container:hover .overlay {
