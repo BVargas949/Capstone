@@ -91,7 +91,6 @@ section#overView {
 section#about p.path {
     display: block;
     border: 1px solid black;
-    float: left;
     width: 40%;
     padding: 20px;
     margin-left: 10%;
@@ -298,13 +297,13 @@ section#ctso img {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10px;
+    padding: 10px;
 
 }
 
 section article#skillsUSA {
     display: inline;
-    float: right;
+    float: left;
     width: 50%;
     border: solid black 2px;
     background-size: 100px;
@@ -351,4 +350,31 @@ div.slideshow {
     to {
         opacity: 1
     }
+}
+
+/* The programs at cetral campus  */
+#central {
+    background: black;
+}
+
+#video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline;
+    width: 50%;
+}
+
+#right {
+    color: white;
+    display: inline;
+    float: right;
+    width: 45%;
+}
+
+div#right h1 {
+    color: #ED8F03;
+}
+
+article#skillsUSA h1 {
+    color: #ED8F03;
 }
