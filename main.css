@@ -3,14 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 
+
+
 body {
     margin: 0;
     font-family: 'Arvo', serif;
+    height: 100%;
 }
 
 article {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 /* Horizontal Nav */
@@ -44,7 +48,6 @@ nav ul li a {
     font-size: 20px;
     text-decoration: none;
     transition: 0.4s;
-
 }
 
 nav ul li a:hover:not(.active) {
@@ -88,15 +91,37 @@ section#overView {
 
 /* About section Styles */
 
+section#about {
+    background-color: black;
+    padding: 2px;
+}
+
+section#about h1 {
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    box-shadow: 0px 2px 0px 0px;
+    transition: 0.4s;
+    color: #ED8F03;
+}
+
 section#about p.path {
     display: block;
-    border: 2px solid black;
+    border: 2px solid white;
     width: 40%;
     padding: 20px;
     margin-left: 8%;
     margin-right: auto;
     margin-bottom: 10px;
     font-size: 20px;
+    color: whitesmoke;
 }
 
 section#about h3.firstH {
@@ -117,9 +142,9 @@ section#about h3.firstH:hover:not(.active) {
 section#about img#fcc {
     width: 15%;
     height: 15%;
-    padding-top: 2%;
     float: right;
     margin-right: 20%;
+    border-radius: 20px;
 }
 
 /* Second half of the "about" portion */
@@ -172,20 +197,23 @@ section#about2 img {
 
 form {
     width: 40%;
-    margin: 2%;
+    margin: 2% 0% 0% 6%;
     background-color: rgb(58, 57, 57);
     border-radius: 20px;
     color: #FFB75E;
     height: 100%;
+    float: left;
 }
 
 form h3 {
     display: block;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
     color: #ED8F03;
+    box-shadow: #ED8F03 0pc 2px 0px 0px;
 }
 
 form label {
@@ -214,10 +242,55 @@ form textarea {
     margin-bottom: 10px;
 }
 
+/* second contact section */
+
+article#qright {
+    width: 40%;
+    margin: 2% 6% 0% 0%;
+    background-color: rgb(58, 57, 57);
+    border-radius: 20px;
+    color: #FFB75E;
+    height: 100%;
+    float: right;
+}
+
+article#qright h3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #ED8F03;
+    box-shadow: #ED8F03 0pc 2px 0px 0px;
+}
+
+article#qright p {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* maps */
+.mapouter {
+    text-align: right;
+    height: 40%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 410px;
+    width: 500px;
+}
+
+
+
 /* Image number 1 */
 
 section#steps {
     display: block;
+    clear: both;
 }
 
 img {
@@ -397,10 +470,17 @@ section article#skillsUSA {
 }
 
 /* slideshow */
+
+section#show {
+    display: block;
+    height: 100%;
+}
+
 div.slideshow {
     padding-top: 50px;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 .slides {
@@ -415,43 +495,41 @@ div.slideshow {
     animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
 
 /* The programs at cetral campus  */
-#central {
-    background: black;
+section#central {
+    background: rgb(255, 255, 255);
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 
-#video {
+iframe#video {
     padding-top: 20px;
     padding-bottom: 20px;
     display: inline;
-    width: 50%;
+    width: 45%;
+    margin-left: 3%;
 }
 
-#right {
-    color: white;
+div#right {
+    color: rgb(0, 0, 0);
     display: inline;
     float: right;
     width: 45%;
+    border: 2px solid black;
+    margin-right: 3%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    height: 380px;
+}
+
+div#right p#r1 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 30px;
+
 }
 
 div#right h1 {
