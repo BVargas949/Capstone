@@ -1,7 +1,3 @@
-// window.onload = function () {
-//     alert("welcome to the Avionics/ Drone Electronics page!")
-// }
-
 // slideshow
 var slideNum = 0;
 show();
