@@ -454,6 +454,7 @@ div.text a:hover:not(.active) {
 
 section#ctso {
     background-color: black;
+    clear: both;
 }
 
 section#ctso h1 {
