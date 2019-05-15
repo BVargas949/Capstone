@@ -292,8 +292,10 @@ iframe#gmap_canvas {
 
 
 
-/* Image number 1 */
+/*        Image number 1          */
 
+
+/* the section with id steps has a display block. The image does not repeat and fills the page while having the set height. The div with a class nested in the section has a relative position while the padding and margin are set and floats to the left. Also, has a width of 28% since it will split with three images and needs space for the padding and margin. */
 section#steps {
     display: block;
     clear: both;
@@ -320,6 +322,7 @@ section div img.image {
     height: auto;
 }
 
+
 section div div.overlay {
     position: absolute;
     bottom: 100%;
@@ -332,6 +335,7 @@ section div div.overlay {
     transition: .5s;
 }
 
+/* the hover element is used as a pseudo-element that has a height full length.  */
 section div.container:hover .overlay {
     bottom: 0;
     height: 100%;
@@ -356,13 +360,16 @@ div.text a {
     padding: 2px;
 }
 
+/* The text of the a that uses a pseudo-element that defines it does not hover when active. */
 div.text a:hover:not(.active) {
     color: rgb(206, 44, 44);
 }
 
 
 
-/* image number 2 */
+/*       image number 2      */
+
+/* Code is same as the first images, except different classes. */
 .apply {
     position: relative;
     width: 28%;
@@ -406,7 +413,8 @@ div.text a:hover:not(.active) {
     text-align: center;
 }
 
-/* Image number 3 */
+/*           Image number 3         */
+/* Code is same as the first images, except different classes. */
 .reg {
     position: relative;
     width: 28%;
@@ -452,6 +460,8 @@ div.text a:hover:not(.active) {
 
 /* Skills USA Portion */
 
+
+/* The section with an id of CTSO has a background color set. Clear both will avoid the elements from being affected. The h1 that is nested within the section with ID has a set font and aligned to the middle. It also has a width og 20 and a color defines for the text. */
 section#ctso {
     background-color: black;
     clear: both;
@@ -473,6 +483,7 @@ section#ctso h1 {
     color: #ED8F03;
 }
 
+/* The image of the section with the id of CTSO is also centered and the corners have a radius of a hypothetical circle is 5px. The border is a solid 2 pixel line that is a rgb color. The code is similar to that of the article with the id of skillsUSA. */
 section#ctso img {
     width: 35%;
     height: 40%;
@@ -499,8 +510,9 @@ section article#skillsUSA {
     color: white;
 }
 
-/* slideshow */
+/*         slideshow         */
 
+/* The main part of the slideshow has to do with the webkits that were used to fade and add an animation of a duration of 1.5 seconds. */
 section#show {
     display: block;
     height: 100%;
@@ -526,7 +538,9 @@ div.slideshow {
 }
 
 
-/* The programs at cetral campus  */
+/* The programs at central campus  */
+
+/* The styles to this oart is similar to the other parts that have to do with information wise. The difference is that they video is displayed inline and has a margin, along with padding. The title of this portion is set to a specified color. */
 section#central {
     background: rgb(255, 255, 255);
     display: block;
